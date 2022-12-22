@@ -264,14 +264,15 @@ p{
   box-shadow: 0 0 10px lime;
 }
 .ani{
+  position: relative;
   animation-name: example;
-  animation-duration: 6s;
+  animation-duration: 3s;
 }
 
 @keyframes example {
-  0%   { top:0px;}
-  50%  { top:200px;}
-  100% { top:0px;}
+  0%   {top:200px;}
+  50%  { top:0px;}
+  100% {top:0px;}
 }
 ion-icon:hover{
   color: lime;
