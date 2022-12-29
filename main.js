@@ -10,6 +10,6 @@ function validateForm() {
     alert("Form must be filled out");
     return false;
   }else{
-    window.location.href="thx.html";
+    window.location.href="tel:+918606795033";
   }
 }
